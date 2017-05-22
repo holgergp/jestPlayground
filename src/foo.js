@@ -1,7 +1,7 @@
 'use strict';
 
 exports.renderSomething = () => {
-    return "My rendered String changed"
+    return "My rendered String"
 }
 
 exports.renderSomeMarkup =()=> {

@@ -1,8 +1,6 @@
 const request = require('../src/request');
 jest.mock('../src/request');
 
-//let request=  jest.mock('request');
-
 test('async callback', (done) => {
   function callback(data) {
     
